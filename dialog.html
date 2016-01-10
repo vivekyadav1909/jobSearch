@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Dialog - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/jquery.css">
+  <script>
+  $(function() {
+    $( "#dialog" ).dialog({
+  hide: { effect: "explode", duration: 1000},
+  maxHeight: 800,
+  maxWidth: 800
+
+});
+  });
+  </script>
+</head>
+<body>
+ 
+ <div id="dialog" title="Basic dialog">
+  <p>This is the description which will close when you will press the close button</p>
+</body>
+</html>
